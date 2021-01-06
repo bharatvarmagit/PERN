@@ -6,8 +6,8 @@
   "author": "bharatvarmagit <itisbharatvarma@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
