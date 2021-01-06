@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-module.exports = new Sequelize('test', 'bharat', 'pass', {
+module.exports = new Sequelize('test', 'bharat', '', {
     host: 'localhost',
     dialect: 'postgres',
     operatorsAliases: 0,
