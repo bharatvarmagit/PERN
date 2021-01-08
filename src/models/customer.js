@@ -10,10 +10,13 @@ const Customer =  db.define('Customer', {
         type: DataTypes.STRING
     },
     phoneNumber: {
-        type: DataTypes.BIGINT
+        type: DataTypes.BIGINT,
+        allowNull: false,
+        unique: true
     },
     email: {
-        type: DataTypes.STRING
+        type: DataTypes.STRING,
+        unique: true
     }
 },{
     tableName: 'customers',
